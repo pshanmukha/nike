@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <header className='padding-x py-8 absolute z-10 w-full'>
       <nav className='flex justify-between items-center max-container'>
-        <a href='/'>
+        <a href='/nike/'>
           <img
             src={headerLogo}
             alt='Logo'
@@ -28,9 +28,9 @@ const Nav = () => {
           }
         </ul>
         <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat mg-lg:hidden wide:mr-24'>
-          <a href='/'>Sign in</a>
+          <a href='/nike/'>Sign in</a>
           <span>/</span>
-          <a href='/'>Explore now</a>
+          <a href='/nike/'>Explore now</a>
         </div>
         <div className='hidden max-lg:block'>
           <img 
